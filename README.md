@@ -1,12 +1,7 @@
 # maze_dqn
-迷路課題を深層強化学習(DQN)を用いて解きました。
+迷路を深層強化学習(Deep Q Network)を用いて解きました。
 
 Colaboratoryを用いて実行してください。
 
-maze.txtというファイルをColabにアップロードしてから実行してください。
+迷路は実行すると自動生成(maze.txt)されます。
 
-s, s_nextは, ' ', '#', 'S', 'G' の値を取りうる
-
-s_num, s_num_nextは, マスの２次元配列　例 [1,1]
-
-state, state_nextは, s_num, s_num_nextをtensorに変換したもの　例 tensor[1,1]
